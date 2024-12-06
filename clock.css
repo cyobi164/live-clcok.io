@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-image: url('https://external-preview.redd.it/Tf2MC-orVRAI8OL5tjyF4k4H2Q6QLHTWllekGfqdt3c.png?width=960&crop=smart&auto=webp&s=be4ab9a2fa3ca2f7011799377f118a8dbc64aacb');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.time {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span {
+    margin-left: 5px; /* Adds space between time and AM/PM */
+}
+
+.date {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+/* Optional: Make the font size smaller for mobile */
+@media (max-width: 600px) {
+    .time {
+        font-size: 2rem;
+    }
+
+    .date {
+        font-size: 1rem;
+    }
+}
